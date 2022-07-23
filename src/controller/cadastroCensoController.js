@@ -1,13 +1,22 @@
 const UserSchema = require("../models/cadastroCensoModels");
 
 
-
-
 // exports.createCadastro = async (req,res)=>{
 //     const newCadastro = new UserSchema (req.body);
 //     const savedUser = await newCadastro.save();
 //     return res.status(201).send(savedUser)
 // }
+
+
+
+
+
+
+
+
+
+
+
 
 
 // const createCadastro = async (request, response) => {
