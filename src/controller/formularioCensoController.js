@@ -1,8 +1,9 @@
-const FormularioModel = require("../models/formularioCensoModels");
+const formularioCensoModels = require("../models/formularioCensoModels");
+const formularioCensoModel = require("../models/formularioCensoModels");
 
 exports.criar = async (req, res) => {
   try {
-    const novoFormulario = new FormularioModel(req.body);
+    const novoFormulario = new formularioCensoModel(req.body);
     const formularioSalvo = await novoFormulario.save();
     return res.status(201).send(formularioSalvo)
   } catch (error) {

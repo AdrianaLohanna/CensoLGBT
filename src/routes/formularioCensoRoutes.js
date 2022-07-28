@@ -4,8 +4,8 @@ const routes = express.Router()
 
 routes.post("/", controller.criar)
 routes.get("/", controller.listar)
-routes.patch("/", controller.atualizar)
-routes.get("/", controller.buscar)
-routes.delete("/",controller.deletar)
+routes.patch("/:id", controller.atualizar)
+routes.get("/:id", controller.buscar)
+routes.delete("/:id",controller.deletar)
 
 module.exports = routes
