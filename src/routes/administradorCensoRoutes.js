@@ -1,12 +1,14 @@
 const express = require("express")
 const controller = require("../controller/administradorCensoController")
+const { protegido } = require("../middlewares/auth")
 const routes = express.Router()
 
-routes.post("/", controller.criar)
+routes.post("/", protegido, controller.criar)
 routes.post("/entrar", controller.entrar)
-routes.get("/", controller.listar)
-routes.patch("/", controller.atualizar)
-routes.get("/", controller.buscar)
-routes.delete("/",controller.deletar)
+routes.get("/", protegido, controller.listar)
+routes.patch("/:id", protegido, controller.atualizar)
+routes.get("/", protegido, controller.buscar)
+routes.get("/:id",protegido,controller.buscar)
+routes.delete("/:id",protegido, controller.deletar)
 
 module.exports = routes

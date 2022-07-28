@@ -1,3 +1,4 @@
+const jwt = require("jsonwebtoken")
 const AdministradorCensoModel = require("../models/administradorCensoModel");
 
 exports.criar = async (req, res) => {
@@ -66,7 +67,8 @@ exports.entrar = async(req, res) => {
           message: "Usuário ou senha invalída"
         })
       }
-      res.status(200).send ("token")
+      const token = jwt.sign({id:administrador.id},process.env.SECRET)
+      res.status(200).send ({token})
   } catch (error) {
     return res.status(500).send({
       message: error.message
