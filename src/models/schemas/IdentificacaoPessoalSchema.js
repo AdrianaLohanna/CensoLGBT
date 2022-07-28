@@ -9,7 +9,7 @@ exports.IdentificacaoPessoalSchema = new mongoose.Schema({
   orientacaoSexual: String,
   identidadeDeGenero: String,
   documentosPessoais: String,
-  faixaEtaria: String,
+  idade: String,
   email: String,
   telefone: String
 },{ timestamp: true });
