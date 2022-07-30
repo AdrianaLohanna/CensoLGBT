@@ -3,17 +3,6 @@
 Api de Cadastro de Pessoas LGBTQIAP+
 
 
-
-```
- <h1 align="center">
-  <img src="./assets/api-caroneiros.jpeg" width="350">
-<p align="center"><p>
-</h1>
-
-<h1 align="center">
-    <p align="center">API Caroneiros 🚗 <p>
-</h1>
-
 ## 📝 Apresentação
 
 <p align="justify">  Considerando que em mais de meio século de existência do nosso país, vivemos em uma sociedade onde a maneira em que como população para o estado existimos é a partir do recenseamento que é feito pelo IBGE a cada dez anos. Outrora se consideramos que nesse tempo histórico nunca nosso país deu visibilidade a população LGBTQIAP+ , o que é resultado de uma reprodução histórica da LGBTQFOBIA institucional de um estado que não entende a necessidade da existência dessa população não só para o país como para as políticas públicas, que nunca se colocou no censo questões que visem a a caracterização dessa população. Considerando essa dívida histórica e a ineficácia do estado nesse sentido, se gestou este projeto com vistas a desenvolver um banco de dados que sirva como caracterizador dessa população. <br>
@@ -177,63 +166,24 @@ Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com v
 - https://documenter.getpostman.com/view/20767520/UzXPxGoy
 
 ## 🔎 Demonstração da aplicação, realizada no Postman:
-### Criação de administrador
-<h1 align="center">
-  <img src="./assets/Post - Cadastrar Administrador.gif" width="900">
-<p align="center"><p>
-</h1>
 
-### Login de usuário
-<h1 align="center">
-  <img src="./assets/Delete - Deletar Administrador.gif" width="900">
-<p align="center"><p>
-</h1>
-
-### Criação de anúncio
-<h1 align="center">
-  <img src="./assets/criar-anuncio.gif" width="900">
-<p align="center"><p>
-</h1>
-
-### Todos os anúncios
-<h1 align="center">
-  <img src="./assets/todos-anuncios.gif" width="900">
-<p align="center"><p>
-</h1>
-
+ - LINK: https://youtu.be/8-41WyJYYL8
 
 ## ⚠️ Implementações futuras
 
 * Proteção de dados
-* Fazer buscas mais refinadas
-* Fazer checagem no banco de dados para cadastros
-* Implementar canal de mensagem entre quem oferece e quem busca a carona
-* Deixar comentários e likes/dislikes sobre o motorista e a viagem
-* Opção de dividir gasolina
-* Opção de caronas para encomendas
+* Inplmentar front-end
+* Buscar Financiamento para viabilização do projeto.
 
-## 🤝🏽 Deseja contribuir para o projeto?
-
-- Faça um fork do projeto.
-- Crie uma nova branch com as suas alterações: git checkout -b seu-nome
-- Salve as alterações e crie uma mensagem de commit contando o que você fez: git commit -m "minhas mudanças"
-- Envie as suas alterações: git push origin seu-nome
 
 ## 🗣️ Agradecimentos
 
-<p align="justify"> Agradeço a toda equipe da Reprograma. Entrar para esse curso foi, sem dúvidas, uma das maiores alegrias desse ano. Além de ser uma grande esperança de melhorias no futuro. Agradeço à todas as professoras que tive durante as semanas do curso. Conheci tantas mulheres incríveis que, com certeza, me inspiraram a seguir e aprender mais. A nossa querida facilitadora, as nossas monitoras sempre presentes, e principalmente as minhas colegas de turma. Essas mulheres incríveis que com certeza acompanharei para o resto da vida. Passar esses meses ao lado dessas mulheres foi uma experiência incrível de empatia e solidariedade. Eu tenho certeza que nunca esquecerei de nenhuma. Agradeço demais a minha família, por me incentivar a voltar para os estudos e possibilitar que isso acontecesse. Agradeço a cada amigo que torceu e vibrou comigo cada pequena conquista nos códigos. Agradeço também a mim, pois não foram meses fáceis e precisei de muita determinação para seguir. Daqui para frente, lembrarei de tudo isso. ❤️
+<p align="justify"> Inicialmente quero agradecer a toda equipe do Reprograma pela oportunidade, a todas as minhas colegas de turma pelo companheirismo e em especial as professoras Hannah Freitas e Beatriz Ramerindo pelo super apoio a mim prestado. . ❤️
 
-## 📢 Fale comigo
+## 📢 Contatos da desenvolvedora:
 
-<img src="./assets/erika.jpg" width="150">
 
-* [Linkedin](https://www.linkedin.com/in/%C3%A9rika-de-freitas-b63331ba/)
-* [Telegram](https://t.me/erikafreitas47)
+* [Linkedin](https://www.linkedin.com/in/adriana-lohanna-dos-santos-b90b0a62/)
 
-## 🖋️ Licença
 
-Esse projeto está sob a licença [MIT](./LICENSE).
 
-```
-
-```
