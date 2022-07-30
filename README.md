@@ -87,8 +87,6 @@ Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com v
    |	     |- 📑 index.js
    |
    |    |- 📑 app.js
-   |
-   
    |- 📑 .env
    |- 📑 .env.example
    |- 📑 .gitignore
