@@ -177,9 +177,9 @@ Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com v
 - https://documenter.getpostman.com/view/20767520/UzXPxGoy
 
 ## 🔎 Demonstração da aplicação, realizada no Postman:
-### Criação de usuário
+### Criação de administrador
 <h1 align="center">
-  <img src="./assets/criar-usuario.gif" width="900">
+  <img src="./assets/Post - Cadastrar Administrador.gif" width="900">
 <p align="center"><p>
 </h1>
 
