@@ -5,23 +5,20 @@ Api de Cadastro de Pessoas LGBTQIAP+
 
 ## 📝 Apresentação
 
-<p align="justify">  Considerando que em mais de meio século de existência do nosso país, vivemos em uma sociedade onde a maneira em que como população para o estado existimos é a partir do recenseamento que é feito pelo IBGE a cada dez anos. Outrora se consideramos que nesse tempo histórico nunca nosso país deu visibilidade a população LGBTQIAP+ , o que é resultado de uma reprodução histórica da LGBTQFOBIA institucional de um estado que não entende a necessidade da existência dessa população não só para o país como para as políticas públicas, que nunca se colocou no censo questões que visem a a caracterização dessa população. Considerando essa dívida histórica e a ineficácia do estado nesse sentido, se gestou este projeto com vistas a desenvolver um banco de dados que sirva como caracterizador dessa população. <br>
+<p align="justify">  Vivemos em uma sociedade onde passamos a existir como população para o estado, a partir do recenseamento que é feito pelo IBGE a cada dez anos. No entanto, se considerarmos que em mais de meio século de existência do nosso país, nunca se  deu visibilidade a população LGBTQIAP+ em nosso sistema censitário, o que é resultado de uma reprodução histórica da LGBTQIFOBIA institucional do Brasil que não entende a necessidade da existência dessa população, não só para o país como também para as políticas públicas. Pois  nunca se colocou no censo questões que visem a caracterização dessa população. Considerando essa dívida histórica e a ineficácia do estado nesse sentido, se gestou este projeto  com vistas a desenvolver uma API  que sirva como caracterizador dessa população. <br>
 
 <p align="justify">
 
 <p align="justify">
-
- ## ➡️ Link
-
- - [Apresentação](https://www.canva.com/design/DAEyvIDEevE/share/preview?token=tjmm2ZDRSXiHmD7tHaz4_Q&role=EDITOR&utm_content=DAEyvIDEevE&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
 
 ## 📚 Aprendizados
 
 Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com vistas a elaboração de um censo que possa ser utilizada como base de dados para políticas públicas sociais voltados a esta população.  Esta API Rest está fundamentada no método CRUD: 
+
 1- Create (criar), 
 2-Read (leitura), 
 3-Update (atualizar),e 
-4Delete (deletar).
+4-Delete (deletar).
 
 
 ## ⚒️ Tecnologias utilizadas no projetos:
@@ -55,8 +52,8 @@ Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com v
    |    |- 📁 controller
    |         |- 📑 administradorCensoControlleranuncioController.js
    |         |- 📑 autenticacaoCensoController.js
-   |	       |- 📑 formularioCensoController.js
-   |	       |- 📑 .js
+   |	     |- 📑 formularioCensoController.js
+   |	       
    |
    |    |- 📁 database
    |         |- 📑 mongoConfig.js
@@ -66,26 +63,27 @@ Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com v
    |
    |    |- 📁 models
    |    |
-   |    |      |- 📁 schemas
-	 |   	|	        |- 📑 AssistenciaSocialSchemaanuncioSchema.js
+   |    |     |- 📁 schemas
+   |    |         |- 📑 AssistenciaSocialSchemaanuncioSchema.js
    |    |         |- 📑 Avaliacao.js
-   |	  |  	      |- 📑 EducacaoSchema.js
-   |	  |  	      |- 📑 DeficiienciaSchema.js
-   |	  | 	      |- 📑 EducacaoSchema.js
-   |		|         |- 📑 HabitacaoSchema.js
+   |	|    	  |- 📑 EducacaoSchema.js
+   |	|    	  |- 📑 EducacaoSchema.js
+   |	|    	  |- 📑 DeficiienciaSchema.js
+   |	|   	  |- 📑 EducacaoSchema.js
+   |	|	  |- 📑 HabitacaoSchema.js
    |    |         |- 📑 IdentificacaoPessoalShcema.js
    |    |         |- 📑 SaudeSchema.js
    |    |         |- 📑 SegurancaPuplicaSchema.j
    |    |         |- 📑 TrabalhoeRendaSchema.j
    |    |         |- 📑 usuarioSchema.j
    |    |
-   |		|- 📑 administradorCensoModel.js
+   |	|- 📑 administradorCensoModel.js
    |    |- 📑 formularioCensoModel.js
    |
    |
    |    |- 📁 routes
    |	     |- 📑 administradorCensoRoutes.js
-   |       |- 📑 formularioCensoRoutes.js
+   |         |- 📑 formularioCensoRoutes.js
    |	     |- 📑 index.js
    |
    |    |- 📑 app.js
@@ -110,7 +108,7 @@ Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com v
 2- Criar formulário.
 
 * Buscar/Listar: 
-1- Buscar aministrador por id, 
+1- Buscar administrador por id, 
 2- Listar todos os administradores,
 3- Listar um formulário
 4- Listar todos os fomulários
@@ -150,7 +148,7 @@ Como projeto final, esta API visa o cadastramento de pessoas LGBTQIAP+’s com v
 | PATCH        | `"/:id", protegido, controller.atualizar`  | Atualizar administrador              |
 | DELETE       | `"/:id",protegido, controller.deletar`     | Deleta um  administrador             |
  
-## 🔃 Manipulação das Rotas de Formulário:
+## 🔃 Manipulação das Rotas de Formulários:
 
 | Método HTTP  | Endpoint                                   | Descrição                            |
 | ------------ | ------------------------------------------ | ------------------------------------ |
